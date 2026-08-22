@@ -6,10 +6,10 @@ export default async function (eleventyConfig) {
     eleventyConfig.setOutputDirectory("_site")
     eleventyConfig.setLayoutsDirectory("layouts")
 
-    eleventyConfig.addPlugin(tailwindcss, { input: 'src/tailwind.css', output: 'assets/css/tailwind.css' });
+    eleventyConfig.addPlugin(tailwindcss, { input: 'src/tailwind.css', output: 'assets/css/tailwind.css', debug: true });
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
-    eleventyConfig.setTemplateFormats("liquid");
+    eleventyConfig.setTemplateFormats(["liquid","md"]);
 
     // Pass-through copies
     eleventyConfig.addPassthroughCopy({ "./src/robots.txt": "robots.txt" });

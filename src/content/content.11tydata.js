@@ -9,7 +9,7 @@ export default {
 
 			// Extract path relative to content folder
 			const inputPath = data.page.inputPath;
-			const contentMatch = inputPath.match(/\/content\/(.+?)(?:\/index)?\.liquid$/);
+			const contentMatch = inputPath.match(/\/content\/(.+?)(?:\/index)?\.(liquid|md)$/);
 			if (contentMatch) {
 				return `/${contentMatch[1]}/`;
 			}
@@ -17,5 +17,13 @@ export default {
 			// Fallback to file slug
 			return `/${data.page.fileSlug}/`;
 		},
+		title: (data) => {
+			if (data.title !== "Mechanist.net") {
+				return data.title + " | Mechanist.net"
+			}
+			else {
+				return data.title
+			}
+		}
 	}
 };

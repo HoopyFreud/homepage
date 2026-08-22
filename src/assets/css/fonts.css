@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Xirod';
+    font-style: normal;
+    src: local(''), url('/assets/fonts/Xirod.woff2') format('woff2'),
+}
