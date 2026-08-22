@@ -1,0 +1,12 @@
+# Generated files
+dist/
+packages/*/visualize/*
+
+# Ignore installed npm modules
+node_modules/
+_site/
+.cache
+
+# Ignore folders from source code editors
+.vscode
+.idea
