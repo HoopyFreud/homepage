@@ -1,6 +1,7 @@
 ---
 eleventyNavigation:
     key: Home
+    order: 0
 ---
 <div class="flex flex-row w-3/4 mx-auto justify-evenly">
     <div class="rounded-lg min-h-15 min-w-20 p-5 justify-center border bg-accent">
