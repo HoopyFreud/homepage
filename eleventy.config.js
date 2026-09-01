@@ -1,5 +1,6 @@
 import tailwindcss from 'eleventy-plugin-tailwindcss-4'
-import { InputPathToUrlTransformPlugin} from "@11ty/eleventy";
+import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 export default async function (eleventyConfig) {
     eleventyConfig.setInputDirectory("src")
@@ -8,6 +9,7 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.addPlugin(tailwindcss, { input: 'src/tailwind.css', output: 'assets/css/tailwind.css', debug: true });
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     eleventyConfig.setTemplateFormats(["liquid","md"]);
 
