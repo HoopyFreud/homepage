@@ -3,11 +3,4 @@ eleventyNavigation:
     key: Home
     order: 0
 ---
-<div class="flex flex-row w-3/4 mx-auto justify-evenly">
-    <div class="rounded-lg min-h-15 min-w-20 p-5 justify-center border bg-accent">
-        <h3>Projects</h3>
-    </div>
-    <div class="rounded-lg min-h-15 min-w-20 p-5 justify-center border bg-accent">
-        <h3>Essays</h3>
-    </div>
-</div>
+Thanks for visiting my website. Feel free to check out some of the things I've made, stuff I've written, or some information about me.

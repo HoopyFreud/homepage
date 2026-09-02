@@ -4,8 +4,8 @@
     navigationOptions: {
       listElement: "ul",
       listItemElement: "li",
-      listClass: "",
-      listItemClass: "",
+      listClass: "flex flex-row w-full h-full gap-2 justify-evenly",
+      listItemClass: "flex min-h-10 h-full w-full items-center justify-center rounded-lg px-2",
       listItemHasChildrenClass: "",
       activeListItemClass: "current",
       useAriaCurrentAttr: true,
@@ -25,9 +25,11 @@
     <title>{{ title }}</title>
   </head>
   <body class="dark">
-    <div id="site">
-      <div id="nav">
+    <div id="site" class="flex flex-col items-center">
+      <div id="nav" class="my-10 w-full">
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml: navigationOptions}}
+      </div>
+      <div id="content" class="w-3/4">
         {{ content }}
       </div>
     </div>

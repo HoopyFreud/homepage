@@ -3,7 +3,7 @@ export default {
 	eleventyComputed: {
 		permalink: (data) => {
 			// Homepage - check for index.md in content root
-			if (data.page.inputPath.endsWith("/content/index.liquid")) {
+			if (data.page.inputPath.endsWith("/content/index.md")) {
 				return "/";
 			}
 
