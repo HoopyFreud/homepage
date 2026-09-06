@@ -4,5 +4,13 @@ eleventyNavigation:
     key: Projects
     order: 1
 ---
-# This is a test of md files
-<p>HTML in an MD file!</p>
+
+# Inserts, Boxes, and Other Such Objects
+
+## [Cryptid Board Game Insert](/projects/cryptid-insert)
+
+# Computer Programs
+
+## [Indentity Crisis Online Game](https://identity.mechanist.net)
+
+## [Tarot Reference](https://tarot.mechanist.net) (also available as an [Android App](/assets/files/tlookup-1.1.2.apk))

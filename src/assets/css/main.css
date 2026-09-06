@@ -29,6 +29,10 @@ p {
     margin-bottom: 1em;
 }
 
+a {
+	text-decoration: underline;
+}
+
 blockquote {
     margin-bottom: 1em;
 	padding-left: 1em;
@@ -56,10 +60,6 @@ blockquote p {
 	margin-bottom: 1em;
 }
 
-.essay-container a {
-	text-decoration: underline;
-}
-
 #site {
 	width: 1126px;
 	max-width: 100%;
@@ -74,6 +74,10 @@ blockquote p {
 
 #nav ul {
 	list-style: none;
+}
+
+#nav a {
+	text-decoration: none;
 }
 
 #nav ul li {
