@@ -1,7 +1,7 @@
 ---
 title: Essays
 eleventyNavigation:
-    key: essays
+    key: Essays
     order: 2
 ---
 # This is a test of md files

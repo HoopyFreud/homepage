@@ -1,7 +1,7 @@
 ---
 title: Projects
 eleventyNavigation:
-    key: projects
+    key: Projects
     order: 1
 ---
 # This is a test of md files

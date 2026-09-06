@@ -3,11 +3,12 @@
 
 body {
 	margin: 0;
+	font-family: Blinker;
 }
 
 h1,h2,h3 {
 	width: 100%;
-	font-family: Xirod, monospace;
+	font-family: Blinker, monospace;
 }
 
 h1,
@@ -43,16 +44,12 @@ p {
 	box-sizing: border-box;
 }
 
-#nav {
-	margin-top: 15px;
-}
-
 #nav ul {
 	list-style: none;
 }
 
 #nav ul li {
-	font-family: Xirod, monospace;
+	font-family: Blinker, monospace;
 	font-size: 20px;
 	@media (max-width: 1024px) {
 		font-size: 14px;
@@ -68,4 +65,25 @@ p {
 	text-align: left;
 	display: flex;
 	flex-direction: column;
+}
+
+.link-card {
+	background-color: var(--accent);
+	border-style: var(--tw-border-style);
+	border-width: 3px;
+	border-radius: var(--radius);
+	min-width: calc(var(--spacing) * 20);
+	min-height: calc(var(--spacing) * 15);
+	width: 25%;
+	min-width: calc(var(--spacing) * 50);
+	height: calc(var(--spacing) * 30);
+	margin-bottom: calc(var(--spacing) * 5);
+}
+
+.link-card .card-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	border-radius: var(--radius);
 }

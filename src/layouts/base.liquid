@@ -18,15 +18,18 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="icon" href="/assets/img/icon.webp" />
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/tailwind.css">
     <title>{{ title }}</title>
   </head>
   <body class="dark">
     <div id="site" class="flex flex-col items-center">
-      <div id="nav" class="my-10 w-full">
+      <div id="nav" class="my-5 w-full">
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml: navigationOptions}}
       </div>
       <div id="content" class="w-3/4">
