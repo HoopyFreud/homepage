@@ -29,10 +29,6 @@ p {
     margin-bottom: 1em;
 }
 
-a {
-	text-decoration: underline;
-}
-
 blockquote {
     margin-bottom: 1em;
 	padding-left: 1em;
@@ -76,10 +72,6 @@ blockquote p {
 	list-style: none;
 }
 
-#nav a {
-	text-decoration: none;
-}
-
 #nav ul li {
 	font-family: Blinker, monospace;
 	font-size: 20px;
@@ -99,6 +91,10 @@ blockquote p {
 	flex-direction: column;
 }
 
+#content a {
+	text-decoration: underline;
+}
+
 .link-card {
 	background-color: var(--accent);
 	border-style: var(--tw-border-style);
@@ -108,6 +104,10 @@ blockquote p {
 	width: 25%;
 	height: calc(var(--spacing) * 30);
 	margin-bottom: calc(var(--spacing) * 5);
+}
+
+.link-card a {
+	text-decoration: none;
 }
 
 .link-card .card-content {
