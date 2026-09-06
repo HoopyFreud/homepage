@@ -106,8 +106,8 @@ blockquote p {
 	margin-bottom: calc(var(--spacing) * 5);
 }
 
-.link-card a {
-	text-decoration: none;
+a .link-card {
+	text-decoration: underline;
 }
 
 .link-card .card-content {
