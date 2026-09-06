@@ -40,20 +40,8 @@ blockquote p {
     margin-bottom: 0;
 }
 
-.essay-container img {
-	margin-left: auto;
-	margin-right:auto;
-}
-
-.essay-container h2 {
-	margin-bottom: 0.5em;
-}
-
-.essay-container h3 {
-	text-align: center;
-	width: 100%;
-	margin-top: -1em;
-	margin-bottom: 1em;
+a {
+	text-decoration: underline;
 }
 
 #site {
@@ -85,14 +73,14 @@ blockquote p {
 	color: var(--background)
 }
 
+#nav a {
+	text-decoration: none;
+}
+
 #content {
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-}
-
-#content a {
-	text-decoration: underline;
 }
 
 .link-card {
@@ -104,9 +92,6 @@ blockquote p {
 	width: 25%;
 	height: calc(var(--spacing) * 30);
 	margin-bottom: calc(var(--spacing) * 5);
-}
-
-a.link-card {
 	text-decoration: none;
 }
 
@@ -116,4 +101,20 @@ a.link-card {
 	flex-direction: column;
 	place-content: center;
 	border-radius: var(--radius);
+}
+
+.essay-container img {
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.essay-container h2 {
+	margin-bottom: 0.5em;
+}
+
+.essay-container h3 {
+	text-align: center;
+	width: 100%;
+	margin-top: -1em;
+	margin-bottom: 1em;
 }
