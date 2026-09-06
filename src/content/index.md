@@ -10,7 +10,7 @@ p {
 </style>
 <div class="text-center">
 
-Thanks for visiting my website.
+Thank you for visiting my website.
 
 I hope you have a nice time here.
 
@@ -78,6 +78,16 @@ There's a lot of interesting stuff out there. Here are some good places to get s
     <a target="_blank" class="link-card" href="https://royalsocietypublishing.org/rspa/article/475/2227/20180565/80107/Satellite-conjunction-analysis-and-the-false">
         <div class="card-content bg-white">
             <h3 class="p-2 text-background text-center font-bold">Satellite conjunction analysis and the false confidence theorem</h3>
+        </div>
+    </a>
+    <a target="_blank" class="link-card" href="https://www.youtube.com/watch?v=Z1PCtIaM_GQ">
+        <div class="card-content bg-[url(https://img.youtube.com/vi/Z1PCtIaM_GQ/maxresdefault.jpg)] bg-cover place-content-start!">
+            <h3 class="p-2 text-foreground text-center font-bold">Jackie Chan - How to Do Action Comedy</h3>
+        </div>
+    </a>
+    <a target="_blank" class="link-card" href="https://talon125.github.io/">
+        <div class="card-content bg-background p-3">
+            <img class="rounded-lg h-auto w-full object-cover" src="https://talon125.github.io//img/brand/logo/default.svg" alt="Tetra Legends Ultimate">
         </div>
     </a>
 </div>
