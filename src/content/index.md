@@ -3,12 +3,7 @@ eleventyNavigation:
     key: Home
     order: 0
 ---
-<style>
-p {
-    margin-bottom: 1em
-}
-</style>
-<div class="text-center">
+<div class="text-center text-xl">
 
 Thank you for visiting my website.
 
@@ -27,7 +22,7 @@ There's a lot of interesting stuff out there. Here are some good places to get s
     </a>
     <a target="_blank" class="link-card" href="https://hitherby-dragons.wdfiles.com/local--files/a-small-gift-to-my-readers/wtf.pdf">
         <div class="card-content bg-white">
-            <img class="h-auto w-full object-cover" src="/assets/img/wtf.webp" alt="Wisher, Theurgist, Fatalist & Weaver of Their Fates">
+            <img class="h-auto w-full object-cover" src="/assets/img/homepage/wtf.webp" alt="Wisher, Theurgist, Fatalist & Weaver of Their Fates">
         </div>
     </a>
     <a target="_blank" class="link-card" href="https://www.youtube.com/watch?v=Bd8_vO5zrjo&list=PLLeOB_bZlkeZUj_gD_ACWGK6geCl-LMZx">
@@ -62,12 +57,12 @@ There's a lot of interesting stuff out there. Here are some good places to get s
     </a>
     <a target="_blank" class="link-card" href="https://redactle.net/">
         <div class="card-content bg-[#15191e]">
-            <img class="h-auto w-full object-cover" src="/assets/img/redactle.webp" alt="Redactle">
+            <img class="h-auto w-full object-cover" src="/assets/img/homepage/redactle.webp" alt="Redactle">
         </div>
     </a>
     <a target="_blank" class="link-card" href="https://www.newyorker.com/magazine/1992/03/30/sleep-4">
         <div class="card-content bg-[#f6f4ef]">
-            <img class="h-auto w-full object-cover" src="/assets/img/sleep.webp" alt="Sleep">
+            <img class="h-auto w-full object-cover" src="/assets/img/homepage/sleep.webp" alt="Sleep">
         </div>
     </a>
     <a target="_blank" class="link-card" href="https://www.youtube.com/watch?v=d8o54wmXpV0">

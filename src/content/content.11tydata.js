@@ -24,6 +24,16 @@ export default {
 			else {
 				return data.title
 			}
+		},
+		navigationOptions: {
+			listElement: "ul",
+			listItemElement: "li",
+			listClass: "flex flex-row w-full h-full gap-2 justify-evenly",
+			listItemClass: "flex min-h-10 h-full w-full items-center justify-center rounded-lg px-2",
+			listItemHasChildrenClass: "",
+			activeListItemClass: "current",
+			useAriaCurrentAttr: true,
+			activeKey: (data) => data.activeKey || data.eleventyNavigation?.key || null
 		}
 	}
 };

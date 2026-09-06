@@ -7,7 +7,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.setOutputDirectory("_site")
     eleventyConfig.setLayoutsDirectory("layouts")
 
-    eleventyConfig.addPlugin(tailwindcss, { input: 'src/tailwind.css', output: 'assets/css/tailwind.css', debug: true });
+    eleventyConfig.addPlugin(tailwindcss, { input: 'src/tailwind.css', output: 'assets/css/tailwind.css' });
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -15,19 +15,13 @@ export default async function (eleventyConfig) {
 
     // Pass-through copies
     eleventyConfig.addPassthroughCopy({ "./src/robots.txt": "robots.txt" });
-    eleventyConfig.addPassthroughCopy({ "./src/assets/css": "/assets/css" });
-    eleventyConfig.addPassthroughCopy({ "./src/assets/file": "/assets/file" });
-    eleventyConfig.addPassthroughCopy({ "./src/assets/fonts": "/assets/fonts" });
-    eleventyConfig.addPassthroughCopy({ "./src/assets/img": "/assets/img" });
-    eleventyConfig.addPassthroughCopy({ "./src/assets/js": "/assets/js" });
+    eleventyConfig.addPassthroughCopy({ "./src/assets": "/assets" });
 
     // Watch targets
-    eleventyConfig.addWatchTarget("./src/assets/css/");
-    eleventyConfig.addWatchTarget("./src/assets/js/");
+    eleventyConfig.addWatchTarget("./src/assets/");
 
     // Server options
     eleventyConfig.setServerOptions({
-        port: 8080,
-        watch: ["_site/assets/css/**/*.css", "_site/assets/js/**/*.js"],
+        port: 8080
     });
 }

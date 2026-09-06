@@ -4,5 +4,7 @@ eleventyNavigation:
     key: Essays
     order: 2
 ---
-# This is a test of md files
-<p>HTML in an MD file!</p>
+
+# Game Design
+
+## [The Rule is the Unit of Expectation](/essays/rules-expectations)
