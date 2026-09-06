@@ -75,9 +75,9 @@ There's a lot of interesting stuff out there. Here are some good places to get s
             <img class="rounded-lg h-full w-auto object-cover" src="https://img.youtube.com/vi/d8o54wmXpV0/maxresdefault.jpg" alt="A COLLISION OF BLAME: The Total Collapse of Baltimore's Key Bridge">
         </div>
     </a>
-    <a target="_blank" class="link-card" href="https://royalsocietypublishing.org/rspa/article/475/2227/20180565/80107/Satellite-conjunction-analysis-and-the-false">
-        <div class="card-content bg-white">
-            <h3 class="p-2 text-background text-center font-bold">Satellite conjunction analysis and the false confidence theorem</h3>
+    <a target="_blank" class="link-card" href="https://dungeons.hismajestytheworm.games/">
+        <div class="card-content bg-[url(https://dungeons.hismajestytheworm.games/assets/images/overview-by-bertdrawsstuff.png)] bg-cover place-content-start!">
+            <h3 class="p-2 text-foreground text-center font-bold">Dungeon Design Course</h3>
         </div>
     </a>
     <a target="_blank" class="link-card" href="https://www.youtube.com/watch?v=Z1PCtIaM_GQ">
@@ -88,6 +88,11 @@ There's a lot of interesting stuff out there. Here are some good places to get s
     <a target="_blank" class="link-card" href="https://talon125.github.io/">
         <div class="card-content bg-background p-3">
             <img class="rounded-lg h-auto w-full object-cover" src="https://talon125.github.io//img/brand/logo/default.svg" alt="Tetra Legends Ultimate">
+        </div>
+    </a>
+    <a target="_blank" class="link-card" href="https://royalsocietypublishing.org/rspa/article/475/2227/20180565/80107/Satellite-conjunction-analysis-and-the-false">
+        <div class="card-content bg-white">
+            <h3 class="p-2 text-background text-center font-bold">Satellite conjunction analysis and the false confidence theorem</h3>
         </div>
     </a>
 </div>
