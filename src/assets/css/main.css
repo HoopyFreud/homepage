@@ -107,7 +107,7 @@ blockquote p {
 }
 
 a .link-card {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .link-card .card-content {
