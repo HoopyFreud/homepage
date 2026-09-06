@@ -106,7 +106,7 @@ blockquote p {
 	margin-bottom: calc(var(--spacing) * 5);
 }
 
-a .link-card {
+a.link-card {
 	text-decoration: none;
 }
 
