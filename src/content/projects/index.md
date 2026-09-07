@@ -5,9 +5,15 @@ eleventyNavigation:
     order: 1
 ---
 
-# Inserts, Boxes, and Other Such Objects
+# Inserts, Boxes, and Other Objects
+
+## [Yellow Sign Dice Box](/projects/dice-box)
+
+## [Crokinole Board](/projects/crokinole)
 
 ## [Cryptid Board Game Insert](/projects/cryptid-insert)
+
+## [ARCHIPOP Components Holder](/projects/archipop-holder)
 
 # Computer Programs
 
